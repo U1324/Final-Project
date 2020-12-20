@@ -1,0 +1,127 @@
+.container {
+    background-color: #321f28;
+    background-blend-mode: hue;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    height: 1000px;
+}
+
+.head-t {
+    display: flex;
+}
+
+.logo {
+    width: 23.3%;
+    display: flex;
+}
+
+.navigation {
+    width: 51.7%;
+    align-self: center;
+}
+
+.nav-ul {
+    font-size: 15px;
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.li {
+    color: #D6D4DA;
+    letter-spacing: 1px;
+}
+
+.li:hover {
+    color: white;
+    font-size: 16px;
+    transition: all, 0.5s, ease-in-out, 0.5s;
+    border-bottom: solid;
+}
+
+.sign-in {
+    display: flex;
+    padding-left: 100px;
+    width: 25%;
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p1 {
+    width: 130px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p2 {
+    width: 130px;
+    height: 50px;
+    border-style: solid;
+    background-color: red;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-h {
+    width: 60%;
+    padding-top: 220px;
+}
+
+.header-h h1 {
+    width: 700px;
+    font-size: 65px;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: left;
+    color: white;
+}
+
+.header-h h4 {
+    width: 450px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px 0 40px 0;
+}
+
+.btn {
+    width: 247px;
+    height: 64px;
+    font-size: 15px;
+    border-radius: 55px;
+    border-style: solid;
+    border-color: #FF5C63;
+    background-color: #321f28;
+    color: #FF5C63;
+    cursor: pointer;
+    opacity: 100%;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image {
+    display: flex;
+    position: relative;
+    height: 800px;
+    padding-left: 100px;
+    padding-top: 60px;
+    justify-items: right;
+    justify-content: right;
+}
+
+.b-image {
+    position: absolute;
+    right: 120px;
+    width: 500px;
+    background-image: url(../image/Group\ 1430.svg);
+}
+
+.wraper-h {
+    display: flex;
+}
