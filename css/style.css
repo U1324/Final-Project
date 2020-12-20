@@ -22,7 +22,7 @@
 }
 
 .nav-ul {
-    font-size: 15px;
+    font-size: 14px;
     display: flex;
     padding-left: 50px;
     justify-content: space-between;
@@ -46,7 +46,6 @@
     padding-left: 100px;
     width: 25%;
     font-size: 15px;
-    color: white;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -54,19 +53,31 @@
     width: 130px;
     padding-right: 15px;
     display: flex;
+    color: white;
     align-items: center;
     justify-content: center;
 }
 
 .p2 {
-    width: 130px;
-    height: 50px;
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
     border-style: solid;
-    background-color: red;
-    border-radius: 55px;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.p2:hover {
+    background-color: #FF5C63;
+    border-color: black;
+    color: black;
+    opacity: 40%;
+    transition: all, 0.5s, ease-in, 0.5s;
 }
 
 .header-h {
@@ -105,11 +116,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.btn:hover {
+    background-color: #FF5C63;
+    opacity: 40%;
+    border-color: black;
+    color: black;
+}
+
 .image {
     display: flex;
     position: relative;
-    height: 800px;
-    padding-left: 100px;
+    padding-left: 15rem;
     padding-top: 60px;
     justify-items: right;
     justify-content: right;
@@ -120,6 +137,8 @@
     right: 120px;
     width: 500px;
     background-image: url(../image/Group\ 1430.svg);
+    background-size: 75rem;
+    background-repeat: no-repeat;
 }
 
 .wraper-h {
