@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="86" viewBox="0 0 86 86">
+  <g id="Group_2" data-name="Group 2" transform="translate(-676.5 -4802.5)">
+    <circle id="Oval_Copy_5" data-name="Oval Copy 5" cx="42.5" cy="42.5" r="42.5" transform="translate(677 4803)" fill="none" stroke="#d8d8d8" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Oval_Copy_4" data-name="Oval Copy 4" cx="29.5" cy="29.5" r="29.5" transform="translate(690 4816)" fill="#fafafa"/>
+    <g id="play-button_copy" data-name="play-button copy" transform="translate(712 4835)">
+      <path id="Path" d="M14.791,9.608.759.084a.493.493,0,0,0-.5-.03A.475.475,0,0,0,0,.476V19.524a.476.476,0,0,0,.259.422.492.492,0,0,0,.5-.03l14.032-9.524a.472.472,0,0,0,0-.784Z" fill="#4a4a4a"/>
+    </g>
+  </g>
+</svg>
