@@ -793,6 +793,10 @@
     border-style: solid;
     background-color: #DB0011;
     font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+.btn-bott:active {
+    outline: none;
 }
 .olarm-block {
     width: 25%;
@@ -850,14 +854,20 @@
     padding-bottom: 15px;
     font-family: 'Poppins', sans-serif;
 }
+.subscribe-block p {
+    width: 270px;
+    padding-top: 35px;
+    font-size: 12px;
+    color: #C7C7C7;
+    font-family: 'Poppins', sans-serif;
+}
 .input {
-    width: 300px;
     height: 40px;
-    text-align: center;
+    text-align: left;
     border-radius: 35px;
     border-color: white;
     color:#BBBBBB;
-    font-size: 15px;
+    font-size: 13px;
     opacity: 60%;
     box-shadow: 5px 10px 30px #e7e3e3;
     background-color: #F8F8F8;
@@ -867,10 +877,19 @@
 .input:active {
     outline: none;
 }
+.footer-email {
+    width: 55%;
+    position: relative;
+}
+.footer-btn{
+    position: absolute;
+    right: 0;
+    transform: translateX(90%) translateY(-90%);
+}
 .footer-btn {
-    width: 130px;
-    height: 55px;
-    margin-left: 40px;
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
     cursor: pointer;
     color:white;
     border-color: #db0011;
@@ -1141,6 +1160,19 @@ footer a {
     .header-h{
         width: 100%;
     }
+    .input {
+        height: 40px;
+        text-align: left;
+        border-radius: 35px;
+        border-color: white;
+        color:#BBBBBB;
+        font-size: 13px;
+        opacity: 60%;
+        box-shadow: 5px 10px 30px #e7e3e3;
+        background-color: #F8F8F8;
+        font-family: 'Poppins', sans-serif;
+        outline: none;
+    }
 }
 @media (max-width: 620px) {
     .sign-in {
@@ -1148,7 +1180,9 @@ footer a {
         text-align: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 50%;
+        height: 100%;
+        width: 100%;
+        margin-top: 15px;
     }
     .sect-bottom {
         display: flex;
@@ -1162,13 +1196,107 @@ footer a {
         display: flex;
         flex-wrap: wrap;
     }
-    .b-image img {
-        width: 310px;
-        padding-top: 0px;
+    .block-text {
+        width: 100%;
     }
     .corner-img {
-        opacity: 40%;
+        opacity: 20%;
         position: absolute;
-        transform: scale(0.6) translateX(-80%)translateY(-90%);
+        transform: scale(0.4) translateX(-110%)translateY(-170%);
+    }
+}
+@media (max-width: 620px) {
+    .block-text {
+        width: 100%;
+    }
+    .cover-img {
+        height: auto;
+    }
+    .block-wraper {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .block-text p {
+        text-align: left;
+        width: 100%;
+    }
+    .block-text h2 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .block-text img {
+        width: 95px;
+    }
+    .head-t {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-h h1 {
+        font-size: 25px;
+        width: 100%;
+    }
+    .header-h p {
+        font-size:12px;
+    }
+    .header-h h4 {
+        font-size: 14px;
+        width: 100%;
+    }
+    .top-text {
+        height: auto;
+        width: 100%;
+    }
+    .top-text h2 {
+        font-size: 28px;
+    }
+    .center-text {
+        height: auto;
+        width: 100%;
+    }
+    .text h2 {
+        left: 0px;
+        width: 100%;
+    }
+    .img-right {
+        width: 100%;
+    }
+    .img-left {
+        width: 100%;
+    }
+    .img-block2 {
+        width: 100%;
+    }
+    .bg-img {
+        width: 100%;
+    }
+    .separator{
+        display: none;
+    }
+    .start {
+        align-items: center;
+        width: 100%;
+    }
+    .sect-div {
+        align-items: center;
+        width: 100%;
+    }
+    .sect-bottom {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .sect2-h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+    .b-image img {
+        max-width: 180px;
+        padding-top: 50px;
+        padding-left: 50px;
     }
 }
